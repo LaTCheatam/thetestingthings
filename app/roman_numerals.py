@@ -11,3 +11,7 @@ def parse(value):
     return 5
   elif value == 'VI':
     return 6
+  elif value == 'VII':
+    return 7
+  elif value == 'VIII':
+    return 8
