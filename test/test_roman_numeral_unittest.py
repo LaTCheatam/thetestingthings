@@ -11,3 +11,15 @@ class TestRomanNumerals(unittest.TestCase):
     value = parse("II")
 
     self.assertEqual(value, 2)
+
+  def test_iii(self):
+    value = parse('III')
+
+    self.assertEqual(value, 3)
+
+  def test_iv(self):
+    value = parse('IV')
+
+    self.assertEqual(value, 4)
+
+  
