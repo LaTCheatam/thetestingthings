@@ -6,13 +6,17 @@ def parse(value):
 
   if value[0] == 'I' and value[-1] == 'V':
     return 4
+  elif value[0] == 'I' and value[-1] == 'X':
+    return 9
   else:
     answer = 0
     for digit in value:
       if digit == 'I':
         answer += 1
-      if digit == 'V':
+      elif digit == 'V':
         answer += 5
+      elif digit == 'X':
+        answer += 10
     return answer
 
 
